@@ -15,7 +15,7 @@ The json output returned by the api is then displayed on the page. The path is a
 
 **Steps to run the code**:
 * Install the requirements <br>
-```pip install requirements.txt```
+```pip install --upgrade -r requirements.txt```
 * Run main.py <br>
 ```python main.py``` <br>
 It should display an output as below:
