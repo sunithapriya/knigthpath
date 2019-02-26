@@ -14,13 +14,14 @@ def path():
 	e = request.args.get('end')
 	start = (int(s[0]),int(s[1]))
 	end = (int(e[0]),int(e[1]))
-	if start:
-		#return str(start)
-		#return json.dumps("test")
+	if start and end:
 		path = pathapi.shortestPath(start,end)
-		return json.dumps(path)
+		if path:
+			return json.dumps(path)
+		else:
+			return "No valid path"
 	else:
-		return "No valid path"
+		return "Please provide start and end positions"
 
 
 if __name__ == "__main__":
