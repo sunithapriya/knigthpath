@@ -14,7 +14,7 @@ The json output returned by the api is then displayed on the page. The path is a
 <img width="925" alt="screen shot 2019-02-26 at 12 12 00 am" src="https://user-images.githubusercontent.com/43215312/53389665-2a3f2080-395e-11e9-8140-e15c5c0262a9.png">
 
 **Steps to run the code**:
-* Install the requirements <br>
+* Download or clone the code. Install the requirements <br>
 ```pip install --upgrade -r requirements.txt```
 * Run main.py <br>
 ```python main.py``` <br>
