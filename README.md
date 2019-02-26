@@ -17,7 +17,7 @@ The json output returned by the api is then displayed on the page. The path is a
 * Install the requirements <br>
 ```pip install requirements.txt```
 * Run main.py <br>
-```python main.py```
+```python main.py``` <br>
 It should display an output as below:
 <img width="551" alt="screen shot 2019-02-26 at 12 40 37 am" src="https://user-images.githubusercontent.com/43215312/53389951-6626b580-395f-11e9-801c-18e5900830d2.png">
 
