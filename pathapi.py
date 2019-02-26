@@ -49,5 +49,5 @@ def shortestPath(start,end):
 	path.reverse()
 	return path
 
-path = shortestPath((0,0),(7,0))
-print(path)
+# path = shortestPath((0,0),(7,0))
+# print(path)

@@ -10,7 +10,13 @@ table {
 .clicked {
   background: green !important;
 }
-
+.red {
+  border: 2px solid red;
+}
+#path {
+  margin-left: 5%;
+  margin-top: 5%;
+}
 #chessboard { 
   padding: 0px; 
   margin: 0 auto; 
